@@ -265,6 +265,24 @@
       display: flex;
       margin-bottom: 56px;
     }
+
+    .docs-api-generator-img-box {
+      width: 1200px;
+      height: 318px;
+      padding: 28px 107px 31px 95px;
+      border-radius: 14px;
+      box-shadow: 0 2px 8px 0 rgba(35, 47, 53, 0.09);
+      border: solid 1px #dae2ef;
+      background-color: #fff;
+    }
+
+
+
+
+    .docs-api-service-provider-container {
+      width: 1200px;
+      margin-bottom: 104px;
+    }
   </style>
 </head>
 
@@ -414,14 +432,13 @@
               cycle set by the user.</p>
           </div>
         </div>
-        <div
-          style="width: 1200px;height: 318px;padding: 28px 107px 31px 95px;border-radius: 14px;box-shadow: 0 2px 8px 0 rgba(35, 47, 53, 0.09);border: solid 1px #dae2ef;background-color: #fff;">
+        <div class="docs-api-generator-img-box" style="">
           <img src="../public/images/03.docs/02.generation.png" alt=""
             style="width: 998px;height: 259px;object-fit: contain;">
         </div>
       </div>
-      <div class="container" style="width: 1200px;margin-bottom: 104px;">
-        <h2 class="pb-2" style="width: 228px;
+      <div class="container docs-api-service-provider-container">
+        <h2 class="pb-2 docs-api-service-provider-title" style="width: 228px;
         height: 33px;
         margin-bottom: -57px;
         font-family: NotoSans;
@@ -435,17 +452,17 @@
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
           <div class="col d-flex align-items-start">
             <div>
-              <h2
+              <h2 class="docs-api-service-provider-gateway-title"
                 style="width: 98px;height: 33px;font-family: NotoSans;font-size: 24px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: -0.67px;color: #2a0101;">
                 Gateway</h2>
-              <p
+              <p class="docs-api-service-provider-gateway-content"
                 style="width: 588px;height: 56px;font-family: NotoSans;font-size: 18px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.56;letter-spacing: normal;color: #2a0101;">
                 Gateway is a service that reads a user's API request. Gateway <br>
                 contacts the Authorizer to determine if the user is a verified user. </p>
-              <h2
+              <h2 class="docs-api-service-provider-authorizer-title"
                 style="width: 119px;height: 33px;font-family: NotoSans;font-size: 24px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: -0.67px;color: #2a0101;">
                 Authorizer</h2>
-              <p
+              <p class="docs-api-service-provider-authorizer-content"
                 style="width: 588px;height: 196px;font-family: NotoSans;font-size: 18px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.56;letter-spacing: normal;color: #2a0101;">
                 Authorizer is a service that verifies a user's validity by checking the <br>
                 Authentication DB. If the user
@@ -459,10 +476,10 @@
           </div>
           <div class="col d-flex align-items-start">
             <div style="">
-              <h2
+              <h2 class="docs-api-service-provider-executor-title"
                 style="width: 98px;height: 33px;font-family: NotoSans;font-size: 24px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: normal;letter-spacing: -0.67px;color: #2a0101;">
                 Executor</h2>
-              <p
+              <p class="docs-api-service-provider-executor-content"
                 style="width: 588px;height: 196px;font-family: NotoSans;font-size: 18px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.56;letter-spacing: normal;color: #2a0101;">
                 Executor is a service that executes the user's request and brings the necessary data. It
                 extracts
@@ -477,9 +494,9 @@
             </div>
           </div>
         </div>
-        <p
+        <p class="docs-api-service-provider"
           style="width: 710px;height: 28px;font-family: NotoSans;font-size: 18px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.56;letter-spacing: normal;color: #2a0101;">
-          The three services mentioned above com together to form an API service</p>
+          The three services mentioned above come together to form an API service</p>
         <div style="width: 1200px;
         height: 476px;
         padding: 25px 70px 45px 62px;
