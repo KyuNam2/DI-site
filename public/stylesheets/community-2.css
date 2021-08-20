@@ -1,0 +1,13 @@
+.community-container{
+    margin-top: 100px;
+}
+
+.community-question-title-layout{
+    display: flex;
+    justify-content: space-between;
+}
+
+.community-question-title-info{
+    display: flex;
+    justify-content: space-between;
+}
