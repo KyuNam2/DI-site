@@ -1,36 +1,556 @@
-/* 
-.Features-back-1 {
-  width: 1440px;
-  height: 317px;
-  margin: 74px 0 107px;
-  padding: 70px 397px 70px 398px;
+html {
+  font-size: 62.5%;
 }
-.What-is-Data-Infuser {
-  width: 605px;
-  height: 49px;
-  margin: 0 20px 16px;
+
+.main {
+  background-color: #fff;
+  margin-top: 7.4rem;
+}
+
+.wrapper {}
+
+.docs-architecture-container {
+  width: 120rem;
+  height: 656px;
+}
+
+.docs-architecture-title {
+  width: 43.6rem;
+  height: 4.9rem;
+  margin: auto;
+  margin-top: 10.7rem;
+  margin-bottom: 5.6rem;
   font-family: NotoSans;
-  font-size: 44px;
-  font-weight: 800;
+  font-size: 3.6rem;
+  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: -1px;
+  letter-spacing: -0.1rem;
   text-align: center;
-  color: #a2112d;
+  color: #2a0101;
 }
 
-.Data-Infuser-is-an-o {
-  width: 645px;
-  height: 112px;
-  margin: 16px 0 0;
+.docs-architecture-content-box-layout {
+  display: flex;
+  position: relative;
+}
+
+
+.docs-designer-loader-box {
+  width: 435px;
+  height: 494px;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px 0 rgba(35, 47, 53, 0.09);
+  border: solid 1px #dae2ef;
+  background-color: #fff;
+}
+
+.docs-designer-loader-title-background {
+  width: 163px;
+  height: 36px;
+  padding: 7px 16px;
+  border-top-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  background-color: #9495a8;
+}
+
+.docs-designer-loader-title {
+  width: 133px;
+  height: 22px;
   font-family: NotoSans;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.44px;
+  text-align: center;
+  color: #fff;
+}
+
+.docs-executor-box {
+  width: 435px;
+  height: 494px;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px 0 rgba(35, 47, 53, 0.09);
+  border: solid 1px #dae2ef;
+  background-color: #fff;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.docs-executor-title-background {
+  width: 118px;
+  height: 36px;
+  padding: 7px 16px;
+  border-top-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  background-color: #9495a8;
+}
+
+.docs-executor-title {
+  width: 86px;
+  height: 22px;
+  font-family: NotoSans;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.44px;
+  text-align: center;
+  color: #fff;
+}
+
+.docs-manager-box {
+  width: 28.2rem;
+  height: 49.4rem;
+  border-radius: 1.4rem;
+  box-shadow: 0 0.2rem 0.8rem 0 rgba(35, 47, 53, 0.09);
+  border: solid 0.1rem #dae2ef;
+  background-color: #fff;
+}
+
+.docs-manager-title-background {
+  width: 11.8rem;
+  height: 3.6rem;
+  padding: 0.7rem 1.6rem;
+  border-top-left-radius: 1.4rem;
+  border-bottom-right-radius: 1.4rem;
+  background-color: #9495a8;
+}
+
+.docs-manager-title {
+  width: 8.6rem;
+  height: 2.2rem;
+  font-family: NotoSans;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.044rem;
+  text-align: center;
+  color: #fff;
+}
+
+.docs-architecture-img-location {
+  position: relative;
+  left: 6rem;
+  top: -45rem;
+  right: 9.2rem;
+}
+
+.docs-architecture-img-size {
+  width: 103.6rem;
+  height: 39.3rem;
+}
+
+.docs-api-generator-container {
+  width: 120rem;
+  margin-bottom: 10.4rem;
+}
+
+.docs-api-generator-title {
+  width: 17.3rem;
+  margin-bottom: 1.4rem;
+  height: 3.3rem;
+  font-family: NotoSans;
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.067rem;
+  color: #2a0101;
+}
+
+.docs-api-generator-text-layout {
+  display: flex;
+  margin-bottom: 5.6rem;
+}
+
+.docs-api-generator-designer-title {
+  width: 10rem;
+  height: 3.3rem;
+  font-family: NotoSans;
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.067rem;
+  color: #2a0101;
+}
+
+.docs-api-generator-designer-content {
+  width: 58.8rem;
+  height: 22.4rem;
+  font-family: NotoSans;
+  font-size: 1.8rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.56;
   letter-spacing: normal;
+  color: #2a0101;
+}
+
+#docs-api-generator-loader-location {
+  margin-right: 12rem;
+  margin-left: 2.4rem;
+}
+
+.docs-api-generator-loader-title {
+  width: 7.8rem;
+  height: 3.3rem;
+  font-family: NotoSans;
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.067rem;
+  color: #2a0101;
+}
+
+.docs-api-generator-loader-content {
+  width: 58.8rem;
+  height: 22.4rem;
+  font-family: NotoSans;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2a0101;
+}
+
+
+.docs-api-generator-img-box {
+  width: 120rem;
+  height: 31.8rem;
+  padding: 2.8rem 10.7rem 3.1rem 9.5rem;
+  border-radius: 1.4rem;
+  box-shadow: 0 0.2rem 0.8rem 0 rgba(35, 47, 53, 0.09);
+  border: solid 0.1rem #dae2ef;
+  background-color: #fff;
+}
+
+
+
+
+
+.docs-api-service-provider-container {
+  width: 120rem;
+  margin-bottom: 10.4rem;
+}
+
+
+.docs-api-service-provider-title {
+  width: 22.8rem;
+  height: 3.3rem;
+  margin-bottom: -5.7rem;
+  font-family: NotoSans;
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.067rem;
+  color: #2a0101
+}
+
+.docs-api-service-provider-gateway-title {
+  width: 9.8rem;
+  height: 3.3rem;
+  font-family: NotoSans;
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.067rem;
+  color: #2a0101;
+}
+
+.docs-api-service-provider-gateway-content {
+  width: 58.8rem;
+  height: 5.6rem;
+  font-family: NotoSans;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2a0101;
+}
+
+.docs-api-service-provider-authorizer-title {
+  width: 11.9rem;
+  height: 3.3rem;
+  font-family: NotoSans;
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.067rem;
+  color: #2a0101;
+}
+
+.docs-api-service-provider-authorizer-content {
+  width: 58.8rem;
+  height: 19.6rem;
+  font-family: NotoSans;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2a0101;
+}
+
+.docs-api-service-provider-executor-title {
+  width: 9.8rem;
+  height: 3.3rem;
+  font-family: NotoSans;
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.067rem;
+  color: #2a0101;
+}
+
+.docs-api-service-provider-executor-content {
+  width: 58.8rem;
+  height: 19.6rem;
+  font-family: NotoSans;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2a0101;
+}
+
+.docs-api-service-provider-summary {
+  width: 71rem;
+  height: 2.8rem;
+  font-family: NotoSans;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2a0101;
+}
+
+.docs-api-service-provider-img-box {
+  width: 120rem;
+  height: 47.6rem;
+  padding: 2.5rem 7rem 4.5rem 6.2rem;
+  border-radius: 1.4rem;
+  box-shadow: 0 0.2rem 0.8rem 0 rgba(35, 47, 53, 0.09);
+  border: solid 0.1rem #dae2ef;
+  background-color: #fff;
+}
+.docs-api-service-provider-img{
+  width: 106.8rem;
+  height: 40.6rem;
+  object-fit: contain;
+}
+
+.docs-api-service-management-container {
+  width: 120rem;
+  margin-bottom: 10.4rem;
+}
+
+.docs-api-service-management-title {
+  width: 28.6rem;
+  height: 3.3rem;
+  margin-bottom: 1.8rem;
+  font-family: NotoSans;
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.067rem;
+  color: #2a0101;
+}
+
+.docs-api-service-management-manager-title {
+  width: 10.1rem;
+  height: 3.3rem;
+  margin-bottom: 1.2rem;
+  font-family: NotoSans;
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.067rem;
+  color: #2a0101;
+}
+
+.docs-api-service-management-manager-text {
+  width: 120rem;
+  height: 11.2rem;
+  font-family: NotoSans;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2a0101;
+}
+
+.docs-api-service-management-manager-img-box {
+  width: 120rem;
+  height: 34.2rem;
+  padding: 4rem 12rem 4.2rem 12rem;
+  border-radius: 1.4rem;
+  box-shadow: 0 0.2rem 0.8rem 0 rgba(35, 47, 53, 0.09);
+  border: solid 0.1rem #dae2ef;
+  background-color: #fff;
+}
+
+
+.docs-others-container {
+  width: 120rem;
+  margin-bottom: 16.6rem;
+}
+
+.docs-others-title {
+  width: 7.9rem;
+  height: 3.3rem;
+  font-family: NotoSans;
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.067rem;
   text-align: center;
   color: #2a0101;
-} */
+}
+
+
+.docs-others-databases-title {
+  width: 11.7rem;
+  height: 3.3rem;
+  font-family: NotoSans;
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.067rem;
+  color: #2a0101;
+}
+
+.docs-others-databases-text {
+  width: 120rem;
+  height: 11.2rem;
+  font-family: NotoSans;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2a0101;
+}
+
+
+.docs-the-underlying-technology-container {
+  width: 120rem;
+  margin-bottom: 4.8rem;
+}
+
+.docs-the-underlying-technology-title {
+  width: 45.8rem;
+  height: 4.9rem;
+  margin: auto;
+  margin-bottom: 5.6rem;
+  font-family: NotoSans;
+  font-size: 3.6rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.1rem;
+  text-align: center;
+  color: #2a0101;
+}
+
+.docs-the-underlying-technology-content-box {
+  width: 120rem;
+  height: 24.6rem;
+  border-radius: 1.4rem;
+  box-shadow: 0 0,2rem 0.8rem 0 rgba(35, 47, 53, 0.09);
+  border: solid 1px #dae2ef;
+  background-color: #fff;
+}
+
+.docs-the-underlying-technology-content-layout {
+  display: flex;
+  margin: 5.2rem 11.6rem 4.6rem;
+  justify-content: space-between;
+}
+
+.docs-the-underlying-technology-icon-size {
+  width: 11.2rem;
+  height: 11.2rem;
+}
+
+
+.docs-develop-environment-title {
+  width: 24.6rem;
+  height: 3.3rem;
+  margin-bottom: 2.4rem;
+  font-family: NotoSans;
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.067rem;
+  text-align: center;
+  color: #2a0101;
+}
+
+
+.docs-develop-environment-content-box {
+  width: 18rem;
+  height: 21rem;
+  border-radius: 1rem;
+  border: solid 0.1rem #c7d3e6;
+  background-color: #fff;
+}
+
+.docs-develop-environment-content-title {
+  width: 9.8rem;
+  height: 3.3rem;
+  margin-left: 2.4rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+  font-family: NotoSans;
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.067rem;
+  color: #2a0101;
+}
